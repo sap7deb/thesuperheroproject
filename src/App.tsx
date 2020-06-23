@@ -3,17 +3,16 @@ import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import CourseList from './components/CourseList';
 import Album from './components/Album'
+import SigninPage from './components/SigninPage'
 import './App.css';
-
-
-
+import Routes from './Routes';
 
 function App() {
   return (
     <div>
       {/* <NavBar /> */}
       {/* <CourseList /> */}
-      <Album />
+      <Routes />
     </div>
     // <div className="App">
     //   <header className="App-header">

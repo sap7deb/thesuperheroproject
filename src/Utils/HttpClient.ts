@@ -1,7 +1,5 @@
 import axios from 'axios';
 import * as https from 'https';
-import * as assert from 'assert';
-import * as HttpStatus from 'http-status-code';
 import * as fs from 'fs';
 import * as FormData from 'form-data';
 import axiosErrorLogger from './AxiosErrorLogger';
