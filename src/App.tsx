@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import NavBar from './components/NavBar';
-import CourseList from './components/CourseList';
-import Album from './components/Album'
-import SigninPage from './components/SigninPage'
 import './App.css';
-import Routes from './Routes';
+import Routes from './components/Server/Routes';
 
 function App() {
   return (
